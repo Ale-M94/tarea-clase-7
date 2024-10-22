@@ -6,7 +6,7 @@ function probarValidarNombre() {
 
     console.assert(
         validarNombre(
-            '111111111111111111111111111111111111111111111111111111111111111111111111111111111111111') ===
+            'asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasf') ===
         'Este campo debe tener menos de 50 caracteres',
         'validarNombre no validó que el nombre sea menor a 50 caracteres'
     );
@@ -37,7 +37,7 @@ function probarValidarDescripcionRegalo() {
 
     console.assert(
         validarDescripcionRegalo(
-            '11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111')
+            'asdfasdfasdfasdfasdfasdf4564564dfasdfasdfasdfasfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasf')
         === 'Este campo debe tener menos de 100 caracteres',
         'validarDescripcionRegalo no validó que la descripción sea menor a 100 caracteres'
     );
